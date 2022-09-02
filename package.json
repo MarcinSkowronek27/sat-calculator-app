@@ -1,0 +1,16 @@
+{
+  "name": "sat_calculator_app",
+  "version": "1.0.0",
+  "description": "App to calculate fuel usage and probability of unit injector fail",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Marcin Skowronek",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
